@@ -91,7 +91,7 @@ history = model.fit(x = x_train, y = y_train,
                     epochs = 20, validation_data = (x_test,y_test))
                     
                     
-model.save("/content/drive/My Drive/shallownet64_model.h5")
+model.save("/content/drive/My Drive/shallownet128_model.h5")
 
 
 from sklearn.metrics import confusion_matrix
